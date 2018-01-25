@@ -1,10 +1,14 @@
 package com.example.coolweather.db;
 
+import android.provider.ContactsContract;
+
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by Administrator on 2018\1\23 0023.
  */
 
-public class City{
+public class City extends DataSupport{
     private int id;
     private String cityName;
     private int cityCode;
